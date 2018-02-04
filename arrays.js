@@ -21,3 +21,8 @@ function addElementToEndOfArray(array, element){
   var newArray = array;
   return newArray;
 }
+
+function destrivelyAddElementToEndOfArray(array, element){
+  array.push(element);
+  return array;
+}
