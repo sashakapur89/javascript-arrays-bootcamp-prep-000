@@ -32,7 +32,7 @@ function accessElementInArray(array, index){
 }
 
 function removeElementFromBeginningOfArray(array){
-  array.shift();
+  array.slice(1);
   var newArray = array;
   return newArray
 }
